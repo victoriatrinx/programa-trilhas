@@ -1,0 +1,8 @@
+lista de compras:
+maçã
+banana
+goiaba
+cenoura
+abacaxi
+
+essa é a minha lista de compras.

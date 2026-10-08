@@ -1,0 +1,40 @@
+Comandos do Git 
+Git e GitHub · Guia rápido para consultar durante as aulas 
+
+
+1- Configurar e começar 
+git config --global user.name | "Nome" Define seu nome (uma única vez)
+
+git config --global user.email | "e-mail" Define seu e-mail (uma única vez)
+
+git init | Cria um repositório na pasta
+
+git clone <url> | Copia um repositório do GitHub 
+
+
+2- No dia a dia 
+git status | Mostra o que mudou 
+
+git add . | Prepara todas as mudanças da pasta 
+
+git add * | Também prepara tudo, mas o ponto (.) é a forma mais segura. Prefira ele 
+
+git add nome-do-arquivo | Prepara só um arquivo. Ex.: git add index.html
+
+git commit -m "msg" | Salva com uma mensagem
+
+git log --oneline | Lista os salvamentos feitos
+
+git diff | Mostra o que foi alterado, linha por linha 
+
+
+3- Conectar com o GitHub 
+git remote add origin <url> | Liga a pasta a um repositório do GitHub
+git push | Envia para o GitHub 
+
+git pull | Baixa as novidades 
+
+
+
+Ordem de um salvamento normal: git status → git add . → git commit -m "msg" → git push . Onde aparecer <url> , troque pelo endereço do seu repositório; onde aparecer nome-do-arquivo , troque pelo nome do seu arquivo.
+
