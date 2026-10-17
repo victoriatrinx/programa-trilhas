@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Tags Adicionais</h1>
+    <h2>tabela</h2>
+    <!--table é uma tag que cria uma tabela, e dentro dela podemos colocar outras tags como tr (table row) que cria uma linha da tabela, td (table data) que cria uma célula da tabela, th (table header) que cria um cabeçalho da tabela, e outras tags relacionadas a tabelas.-->
+    <!--tr é uma tag que cria uma linha da tabela, e dentro dela podemos colocar outras tags como td (table data) que cria uma célula da tabela, th (table header) que cria um cabeçalho da tabela, e outras tags relacionadas a tabelas.-->
+    <!--td é uma tag que cria uma célula da tabela, e dentro dela podemos colocar outras tags como p (paragraph) que cria um parágrafo, h1 (heading 1) que cria um título de nível 1, e outras tags relacionadas a conteúdo.-->
+
+    <table>
+        <tr>
+            <td>segunda-feira</td> 
+            <td>terça-feira</td>
+            <td>quarta-feira</td>
+        </tr>
+        <tr>
+            <td>feriado</td>
+            <td>escola</td>
+            <td>música</td>
+        </tr>
+    </table>
+    <h2>formulário</h2>
+
+<!--button é uma tag que cria um botão, e dentro dela podemos colocar outras tags como p (paragraph) que cria um parágrafo, h1 (heading 1) que cria um título de nível 1, e outras tags relacionadas a conteúdo.-->
+<!--form é uma tag que cria um formulário, e dentro dela podemos colocar outras tags como input (input field) que cria um campo de entrada de dados, label (label) que cria um rótulo para o campo de entrada, button (button) que cria um botão, e outras tags relacionadas a formulários.-->
+<!--label é uma tag que cria um rótulo para o campo de entrada, e dentro dela podemos colocar outras tags como input (input field) que cria um campo de entrada de dados, e outras tags relacionadas a formulários.-->
+<!--id="" serve para identificar o campo de entrada-->
+<!--type="" é um atributo que define o tipo do campo de entrada, e dentro dele podemos colocar outros valores como "text" que cria um campo de texto, "email" que cria um campo de email, "password" que cria um campo de senha, e outros valores relacionados a campos de entrada.-->
+<!--for="" serve para associar o rótulo ao campo de entrada-->
+    <form action="processar.php" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        <br> 
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <form action="https://www.google.com/search" method="get">
+        <label>sobre o que você quer saber mais?</label>
+        <input type="text" name="q">
+        <br>
+        <button type="submit">pesquisar no google</button>
+    </form>
+
+    <h2>Tags semânticas</h2>
+    <header>
+        <!--header serve para definir o cabeçalho da página ou de uma seção específica -->
+    </header>
+    <footer>
+        <!--footer serve para definir o rodapé da página ou de uma seção específica -->
+    </footer>
+</body>
+</html>
