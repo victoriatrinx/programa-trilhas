@@ -1,0 +1,60 @@
+.botoes {
+    display:grid;
+    /* display: grid; serve para criar uma grade */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr; serve para definir o tamanho das linhas */
+    gap: 10px;
+    /* gap: 10px; serve para definir o espaçamento entre os elementos */
+}
+body{
+    background-color: aquamarine;
+    display: flex;
+    /* display: flex; serve para criar um layout flexível */
+    justify-content: center;
+    /* justify-content: center; serve para centralizar os elementos horizontalmente */
+    align-items: center;
+    /* align-items: center; serve para centralizar os elementos verticalmente */
+    height: 100vh;
+    /* height: 100vh; serve para definir a altura do body como 100% da viewport */
+    margin: 0;
+}
+.calculadora {
+    background-color: rgb(153, 165, 187);
+    padding: 20px;
+    /* padding: 20px; serve para definir o espaçamento interno da calculadora */
+    border-radius: 15px;
+    /* border-radius: 15px; serve para definir o raio das bordas da calculadora */
+    width: 280px;
+    /* width: 280px; serve para definir a largura da calculadora */
+}
+button {
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: url('./cursor.png') 0 0, auto;
+    /* cursor: url('caminho/para/o/pointer.png'), auto; serve para definir o cursor do mouse com uma imagem personalizada */
+}
+.op{
+    background-color: rgb(248, 158, 74);
+    color: white;
+}
+.largo{
+    grid-column: span 2;
+
+}
+.alto{
+    background-color: #974233 ;
+    color: white;
+}
+
+.visor{
+    background-color: azure;
+    color: #222;
+   height: 60px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 30px;
+    text-align: right;
+}
