@@ -1,0 +1,135 @@
+.container{
+    background-color: rgb(41, 0, 68) ;
+    width: 100%;
+    /* 100% ocupa toda a largura disponivel do elemento pai */
+    height: 100vh;
+    /* 100vh ocupa toda a altura da janela do navegador */
+    display: flex;
+    flex-wrap: wrap;
+   
+    gap: 20px;
+    align-content: center;
+    
+}
+
+.quadrado{
+    background-color: rgb(80, 0, 113);
+    width: 260px;
+    height: 240px;
+    display: flex;
+    gap: 5px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+    border-style: double;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+.item{
+    background-color: rgb(138, 42, 120);
+    width: 50px;
+    height: 50px;
+    border-radius: 9px;
+   
+    
+}
+.quadrado:nth-child(1){
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-content: space-around;
+   
+
+}
+.quadrado:nth-child(2){
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    gap: 0;
+}
+.item:nth-child(2).item{
+    margin: 0;
+}
+.quadrado:nth-child(3){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+.quadrado:nth-child(4){
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.quadrado:nth-child(5){
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 0;
+    
+}
+.quadrado:nth-child(6){
+    display: flex;
+    justify-content: flex-start;
+    gap: 0;
+    
+}
+.quadrado:nth-child(6) .item{
+ margin: 0;
+    
+}
+.quadrado:nth-child(6) .item:nth-child(2){
+   width: 100px;
+}
+.quadrado:nth-child(7){
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 0;
+    
+}
+.quadrado:nth-child(7) .item{
+    margin: 0;
+}
+.quadrado:nth-child(7) .item:nth-child(3){
+    background-color: rgb(255, 243, 227);
+}
+
+.quadrado:nth-child(8){
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+    gap: 0;
+    
+}
+.quadrado:nth-child(8) .item{
+    width: 40%;
+    height: 40%;
+    margin: 0;
+}
+
+
+.item:nth-child(1){
+    background-color: black;
+}
+.item:nth-child(2){
+    background-color: rgb(131, 0, 0) ;
+}
+.item:nth-child(3){
+    background-color: rgb(188, 2, 2);
+}
+.item:nth-child(4){
+    background-color: rgb(255, 0, 0);
+}
+
+
+
